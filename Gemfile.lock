@@ -1,19 +1,25 @@
 PATH
   remote: .
   specs:
-    classic_pagination (1.0.2)
+    classic_pagination (1.0.4)
+      actionpack (~> 2.3.18)
+      activesupport (~> 2.3.18)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    actionpack (2.3.18)
+      activesupport (= 2.3.18)
+      rack (~> 1.1.0)
+    activesupport (2.3.18)
     power_assert (2.0.1)
+    rack (1.1.6)
     rake (0.9.6)
     test-unit (3.5.3)
       power_assert
 
 PLATFORMS
   ruby
-  x86_64-darwin-21
 
 DEPENDENCIES
   bundler (= 2.1.4)
@@ -22,4 +28,4 @@ DEPENDENCIES
   test-unit (= 3.5.3)
 
 BUNDLED WITH
-   2.2.32
+   2.1.4
